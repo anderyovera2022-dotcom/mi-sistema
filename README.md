@@ -84,28 +84,29 @@ $base_datos = 'tienda_sistema';
 └── tienda_sistema.sql  # Script de base de datos
 ```
 
-## 🔐 Credenciales por Defecto
+##
+Credenciales por Defecto
 
 | Usuario | Contraseña | Rol |
 |---------|-----------|-----|
 | admin | admin | Administrador |
 
-**⚠️ Importante:** Cambiar contraseña después del primer acceso.
+**Importante:** Cambiar contraseña después del primer acceso.
 
-## 🛠️ Dependencias
+## Dependencias
 
 - **dompdf/dompdf** - Generación de PDF
 - **php-font-lib** - Soporte de fuentes en PDF
 - **php-svg-lib** - Soporte de SVG en PDF
 
-## 📝 Uso
+## Uso
 
 1. Accede a `http://localhost/mi-sistema`
 2. Inicia sesión con las credenciales
 3. Navega por los módulos disponibles
 4. Realiza operaciones según los permisos de tu rol
 
-## 📊 Reportes
+## Reportes
 
 ### Desde el módulo de Reportes:
 
@@ -114,7 +115,7 @@ $base_datos = 'tienda_sistema';
 - **Ventas** - Resumen de ventas por período
 - Exporta a **PDF** o **Excel**
 
-## 🤝 Contribuciones
+## Contribuciones
 
 Las contribuciones son bienvenidas. Para cambios importantes:
 
@@ -124,11 +125,11 @@ Las contribuciones son bienvenidas. Para cambios importantes:
 4. Push a la rama (`git push origin feature/mejora`)
 5. Abre un Pull Request
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT.
 
-## 📧 Contacto
+## Contacto
 
 Para preguntas o soporte: [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com)
 
