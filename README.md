@@ -2,7 +2,7 @@
 
 Sistema integral de gestión para tiendas comerciales. Permite administrar inventario, ventas, compras, clientes, proveedores y generar reportes en PDF y Excel.
 
-## 🚀 Características
+## Características
 
 - **Gestión de Productos** - Crear, editar y eliminar productos con categorías
 - **Control de Inventario** - Seguimiento de stock con alertas de stock bajo
@@ -17,14 +17,14 @@ Sistema integral de gestión para tiendas comerciales. Permite administrar inven
 - **Usuarios** - Sistema de autenticación y permisos por rol
 - **Dashboard** - Panel de control con métricas principales
 
-## 📋 Requisitos
+## Requisitos
 
 - PHP 7.4 o superior
 - MySQL/MariaDB
 - Composer
 - Apache/XAMPP (recomendado)
 
-## 🔧 Instalación
+## Instalación
 
 ### 1. Clonar el repositorio
 ```bash
