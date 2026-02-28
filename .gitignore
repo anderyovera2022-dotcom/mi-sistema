@@ -1,0 +1,19 @@
+# Composer
+vendor/
+composer.lock
+
+# DomPDF
+dompdf/
+
+# Sistema
+.env
+.env.local
+.DS_Store
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

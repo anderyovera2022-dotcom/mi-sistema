@@ -1,0 +1,38 @@
+:root {
+    --color-fondo: #F9F9F9;      /* Blanco suave */
+    --color-texto: #333333;       /* Gris carbón */
+    --color-acento: #C5A059;      /* Dorado/Ocre */
+    --color-secundario: #2C3E50;  /* Azul oscuro */
+}/* Puedes agregar estilos personalizados aquí para sobreescribir Bootstrap si es necesario */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+/* Seleccionamos la nueva clase de la barra */
+.custom-navbar {
+    background-color: var(--color-secundario) !important; /* El azul oscuro que definiste */
+}
+
+/* Para cambiar el color de los enlaces y el nombre de la tienda */
+.custom-navbar .nav-link, 
+.custom-navbar .navbar-brand {
+    color: var(--color-fondo) !important; /* El blanco hueso para que resalte */
+}
+
+/* Efecto al pasar el mouse por los links */
+.custom-navbar .nav-link:hover {
+    color: var(--color-acento) !important; /* El dorado/ocre al posicionarse */
+}
+body {
+    /* Le decimos al body que use Flexbox y organice a sus hijos en una columna */
+    display: flex;
+    flex-direction: column;
+    
+    /* Asegura que el body ocupe como mínimo toda la altura de la ventana del navegador */
+    min-height: 100vh; /* vh = viewport height */
+}
+
+main {
+    /* Le dice al contenido principal que "crezca" y ocupe todo el espacio sobrante, 
+       empujando el footer hacia abajo */
+    flex-grow: 1;
+}
